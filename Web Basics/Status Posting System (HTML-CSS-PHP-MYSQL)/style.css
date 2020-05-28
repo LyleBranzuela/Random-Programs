@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+html,
+body {
+    background-color: #ffffff;
+    /* Absolute Height of the Navbar */
+    margin-top: 56px;
+    min-height: 400px;
+    margin-bottom: 80px;
+    clear: both;
+}
+
+
+/* Setting up the Color Palette, courtesy of: https://coolors.co/eee6f4-d5c5e0-311d3f-1c052d-08000f */
+
+.mainThemeColor {
+    color: #D5C5E0;
+    background-color: #08000F;
+}
+
+.subThemeColor {
+    color: #EEE6F4;
+    background-color: #1C052D;
+}
+
+.subThemeColor2 {
+    color: #EEE6F4;
+    background-color: #311D3F;
+}
+
+.subThemeColor3 {
+    color: #08000F;
+    background-color: #EEE6F4;
+}
+
+.subThemeColor4 {
+    color: #08000F;
+    background-color: #D5C5E0;
+}
+
+.errorColor {
+    color: red;
+}
+
+#custom-margin-top {
+    margin-top: 4% !important;
+}
+
+
+/* Navbar and Footers */
+
+.footer {
+    height: 40px;
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #D5C5E0;
+}
+
+
+/* Index HTML Styles */
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+
+/* Custom Buttons */
+
+.btn-customMain {
+    color: #D5C5E0 !important;
+    background-color: #311D3F !important;
+    border-color: #08000F !important;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+}
+
+.btn-customMain:hover,
+.btn-customMain:active,
+.btn-customMain:focus {
+    color: #08000F !important;
+    background-color: #EEE6F4 !important;
+    border-color: #08000F !important;
+    outline: none;
+}
+
+.btn-customMain2 {
+    color: #EEE6F4 !important;
+    background-color: #08000F !important;
+    border-color: #08000F !important;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+}
+
+.btn-customMain2:hover,
+.btn-customMain2:active,
+.btn-customMain2:focus {
+    color: #EEE6F4 !important;
+    background-color: #08000F !important;
+    border-color: #08000F !important;
+    outline: none;
+}
+
+
+/* Custome List Group */
+
+.custom-list-group .list-group .list-group-item {
+    background-color: #311D3F !important;
+    border-color: #08000F !important;
+}
+
+.custom-list-group .list-group .list-group-item:hover {
+    background-color: red;
+}
+
+
+/* Custom Card Styles */
+
+.card {
+    border: 5px solid black;
+}
+
+.card .card-header {
+    color: #D5C5E0;
+    background-color: #311D3F;
+    border-color: transparent;
+}
+
+.col-form-label {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+
+/* Custom Jumbotron Styles */
+
+
+/* Search Form Styles */
+
+#search-jumbotron {
+    background: #EEE6F4;
+    color: #311D3F;
+    margin-top: 4%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+#search-bar-custom {
+    border-color: #311D3F;
+}
+
+
+/* End of Index HTML Styles */

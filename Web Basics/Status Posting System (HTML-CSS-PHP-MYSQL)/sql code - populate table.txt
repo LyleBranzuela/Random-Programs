@@ -1,0 +1,5 @@
+create table status (statusCode varchar(5) NOT NULL UNIQUE, statusText text NOT NULL, datePosted Date NOT NULL, shareSetting varchar(40), permType varchar(40));
+insert into status values('S0034','I love bread!', '24/03/20', 'Only Me', 'Allow Shares');
+insert into status values('S0402', 'Let us Get This Bread', '22/02/20', 'Public', 'Allow Likes');
+insert into status values('S5003', 'Test Run!?', '01/01/20', 'Friends', 'Allow Comments');
+
