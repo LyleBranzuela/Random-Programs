@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Number Shapes</string>
+    <string name="Instructions">Insert a number to know whether the number is triangular number, square number, both or neither.</string>
+
+</resources>
